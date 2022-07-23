@@ -1,0 +1,14 @@
+
+PWeb:AvoidCommentedOutCodeCheck""Remove this commented out code.(ó¶¿²8Ú´‡•ª/
+UWeb:AvoidCommentedOutCodeCheck%"Remove this commented out code.(§ôÿûÿÿÿÿ8Ú´‡•ª/
+UWeb:AvoidCommentedOutCodeCheck("Remove this commented out code.(Å¾Äæşÿÿÿÿ8Ú´‡•ª/
+PWeb:AvoidCommentedOutCodeCheck#"Remove this commented out code.(¦İê8Ú´‡•ª/
+OWeb:AvoidCommentedOutCodeCheck$"Remove this commented out code.(åÚ8Ú´‡•ª/
+PWeb:AvoidCommentedOutCodeCheck'"Remove this commented out code.(ÕŒÔù8Ú´‡•ª/
+SWeb:ImgWithoutAltCheckU"%Add an "alt" attribute to this image.(‡³¤«øÿÿÿÿ8ìĞ’•ª/
+UWeb:AvoidCommentedOutCodeCheck)"Remove this commented out code.(Î÷¡áÿÿÿÿÿ8Ú´‡•ª/
+a	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ8æøÁ”ª/
+PWeb:AvoidCommentedOutCodeCheck*"Remove this commented out code.(‹ü­½8Ú´‡•ª/
+PWeb:AvoidCommentedOutCodeCheck&"Remove this commented out code.(¢ÃÛ•8Ú´‡•ª/
+OWeb:TableWithoutCaptionCheck," Add a description to this table.(ÈòĞ8€×ü”ª/
+JWeb:PageWithoutTitleCheck"Add a <title> tag to this page.(Õ¶¯M8ÆİÁ”ª/

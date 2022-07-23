@@ -1,0 +1,35 @@
+package lab1; // the package
+
+
+/**
+ * Documentation Block of Comment
+ *
+ */
+public class HelloWorld {
+
+	
+
+	/**
+	 * A Static block that is called once the class is loaded
+	 */
+	static {
+		
+	}
+		
+	/**
+	 * The Constructor that would be called when a class is invoked to create a object 
+	 */
+	public HelloWorld() {
+		System.out.println("Constructor Called")
+	}
+	
+
+	/**
+	 * The Main Method that will be called as a part of the first Entry point
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// Statement to output data to screen 
+		System.out.println("Welcome to World of java");
+	}
+}
