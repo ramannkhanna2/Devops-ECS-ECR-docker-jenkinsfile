@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         docker_repo_uri = "public.ecr.aws/p9h7s8r8/ramanrepo"
-        task_def_arn = ""
-        cluster = ""
-        exec_role_arn = ""
+        task_def_arn = "arn:aws:ecs:us-east-2:677729060277:task/raman-ecs/1383df779e2541638b68b6e5dd910f99"
+        cluster = "raman-ecs"
+        exec_role_arn = "arn:aws:iam::677729060277:role/ecsTaskExecutionRole"
     }
 
     ...
