@@ -1,5 +1,4 @@
 pipeline {
-    ...
 
     environment {
         docker_repo_uri = "public.ecr.aws/p9h7s8r8/ramanrepo"
@@ -8,7 +7,6 @@ pipeline {
         exec_role_arn = "arn:aws:iam::677729060277:role/ecsTaskExecutionRole"
     }
 
-    ...
 
 stage('Build') {
     steps {
