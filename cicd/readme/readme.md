@@ -269,10 +269,7 @@ Make note of the **Repository URI** - you will need it later.
 1. SSH into the Jenkins instance if you are not already there.
 2. Run the following commands on the Jenkins instance:
 
-        sudo yum install -y git docker
-        sudo service docker start
-        # Allow Jenkins to talk to the Docker daemon
-        sudo usermod -aG docker jenkins
+     Install docker latest version : https://docs.docker.com/engine/install/centos/
         sudo service jenkins restart
 
 ### Run the Jenkins Setup Wizard
