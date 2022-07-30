@@ -261,6 +261,9 @@ Make note of the **Repository URI** - you will need it later.
         sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
         sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
         sudo yum install -y jenkins
+        
+        
+   #  vi   /usr/lib/systemd/system/jenkins.service ; over here give jenkins the rrot previliges
 
 3. Run `sudo service jenkins start` to start the Jenkins service.
 
@@ -270,8 +273,10 @@ Make note of the **Repository URI** - you will need it later.
 2. Run the following commands on the Jenkins instance:
 
      Install docker latest version : https://docs.docker.com/engine/install/centos/
+    
         sudo service jenkins restart
 
+give aws instance an admin role so it can discover ecs and other services 
 ### Run the Jenkins Setup Wizard
 
 1. Browse `http://<instance_ip>:8080`.
@@ -280,6 +285,11 @@ Make note of the **Repository URI** - you will need it later.
 4. Click **Install suggested plugins** and let the installation finish.
 5. Click **Continue as admin**.
 6. Click **Start using Jenkins**.
+
+
+
+
+
 
 ## Creating the Pipeline
 
