@@ -27,4 +27,12 @@ pipeline {
             }
         }
     }
+    
+    stage('Deploy to ECS') {
+            steps {
+                script {
+                    sh "./ci/deploy.sh ${commit_id} experiment-nginx:${commit_id}"
+                }
+            }
+    }
 }
