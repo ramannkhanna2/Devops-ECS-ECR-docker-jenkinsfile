@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        docker_repo_uri = "public.ecr.aws/p9h7s8r8/ramanrepo"
+        docker_repo_uri = "public.ecr.aws/p9h7s8r8/raman-repo"
         task_def_arn = "arn:aws:ecs:us-east-2:677729060277:task-definition/raman-task:6"
         cluster = "raman-ecs"
         region = "us-east-2"
