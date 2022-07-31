@@ -26,13 +26,5 @@ pipeline {
              sh "docker rmi -f ${docker_repo_uri}:${commit_id}"
             }
         }
-    }
-    
-    stage('Deploy to ECS') {
-            steps {
-                script {
-                    sh "./ci/deploy.sh ${commit_id} ${docker_repo_uri}:${commit_id}"
-                }
-            }
-    }
+    }    
 }
